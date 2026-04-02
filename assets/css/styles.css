@@ -20,7 +20,7 @@
   --space-4: clamp(1.25rem, 2vw, 1.75rem);
   --space-5: clamp(1.75rem, 3vw, 2.5rem);
   --space-6: clamp(2.25rem, 4vw, 3.5rem);
-  --shell: min(100% - 1.25rem, 72rem);
+  --shell: min(100% - 0.95rem, 72rem);
 }
 
 * {
@@ -29,6 +29,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -104,6 +106,22 @@ textarea {
   margin-inline: auto;
 }
 
+.site-header__inner > *,
+.site-main > *,
+.scene > *,
+.scene__copy > *,
+.scene__heading > *,
+.intro-grid > *,
+.editorial-grid > *,
+.venue-strip > *,
+.closing-grid > *,
+.video-grid > *,
+.mode-picker > *,
+.cta-row > *,
+.venue-actions > * {
+  min-width: 0;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -155,6 +173,9 @@ textarea {
   overflow-x: auto;
   padding-bottom: 0.05rem;
   scrollbar-width: thin;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 0.15rem;
+  -webkit-overflow-scrolling: touch;
 }
 
 .site-nav a {
@@ -163,10 +184,12 @@ textarea {
   font-size: 0.78rem;
   letter-spacing: 0.02em;
   padding: 0.5rem 0.68rem;
+  min-height: 2.2rem;
   border-radius: 999px;
   border: 1px solid transparent;
   color: var(--text-dim);
   transition: 180ms ease;
+  scroll-snap-align: start;
 }
 
 .site-nav a:hover,
@@ -569,6 +592,136 @@ figcaption {
   padding: 0.8rem;
 }
 
+@media (max-width: 39.99rem) {
+  :root {
+    --shell: min(100% - 0.85rem, 72rem);
+    --radius-lg: 1.18rem;
+    --radius-md: 0.92rem;
+  }
+
+  body {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .site-header__inner {
+    gap: 0.62rem;
+    padding: max(0.65rem, env(safe-area-inset-top)) 0 0.58rem;
+  }
+
+  .brand-block__title {
+    font-size: 0.84rem;
+  }
+
+  .site-nav {
+    gap: 0.28rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .site-nav a {
+    font-size: 0.74rem;
+    padding: 0.46rem 0.62rem;
+    min-height: 2.15rem;
+  }
+
+  .site-main {
+    gap: var(--space-3);
+    padding-block: var(--space-3) calc(var(--space-5) + env(safe-area-inset-bottom));
+  }
+
+  .scene {
+    scroll-margin-top: 5.4rem;
+    border-radius: var(--radius-md);
+    padding: var(--space-3);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+  }
+
+  .scene:not(.scene--hero) {
+    content-visibility: visible;
+    contain-intrinsic-size: auto;
+  }
+
+  .scene__heading {
+    gap: 0.48rem;
+    margin-bottom: var(--space-2);
+  }
+
+  h1 {
+    font-size: clamp(1.98rem, 7.9vw, 2.45rem);
+    max-width: 10ch;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 6.5vw, 2.1rem);
+    max-width: 13ch;
+  }
+
+  .scene__lede {
+    font-size: 1rem;
+    max-width: 34ch;
+  }
+
+  .scene__body {
+    max-width: 42ch;
+  }
+
+  .media-panel--captioned {
+    gap: 0.46rem;
+    padding: 0.44rem;
+  }
+
+  .media-panel--captioned figcaption {
+    max-width: none;
+    font-size: 0.81rem;
+    line-height: 1.42;
+  }
+
+  .media-panel--mobile-natural .media-panel__frame,
+  .media-panel--mobile-natural.media-panel--portrait,
+  .media-panel--mobile-natural.media-panel--landscape {
+    aspect-ratio: auto;
+  }
+
+  .media-panel--mobile-natural img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .cta-row .btn {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .mode-picker {
+    margin-bottom: var(--space-2);
+  }
+
+  .mode-picker__tabs {
+    gap: 0.4rem;
+  }
+
+  .mode-picker__tab {
+    flex: 1 1 100%;
+    min-height: 2.5rem;
+  }
+
+  .venue-actions {
+    gap: 0.4rem;
+  }
+
+  .venue-actions a,
+  .venue-actions button {
+    width: 100%;
+    flex: 1 1 100%;
+    min-height: 2.55rem;
+    font-size: 0.82rem;
+  }
+
+  .note-card textarea {
+    min-height: 9rem;
+  }
+}
+
 @media (min-width: 30rem) {
   .video-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -576,6 +729,20 @@ figcaption {
 }
 
 @media (max-width: 23.5rem) {
+  :root {
+    --shell: min(100% - 0.72rem, 72rem);
+  }
+
+  .scene {
+    padding: 0.92rem;
+  }
+
+  .site-nav a {
+    padding: 0.42rem 0.56rem;
+    font-size: 0.7rem;
+    min-height: 2.05rem;
+  }
+
   .media-panel--captioned {
     padding: 0.44rem;
   }
@@ -617,6 +784,17 @@ figcaption {
   .venue-actions button:hover {
     border-color: rgba(255, 255, 255, 0.34);
     background: rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .btn,
+  .venue-actions a,
+  .venue-actions button,
+  .mode-picker__tab,
+  .site-nav a {
+    transition-duration: 140ms;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
   }
 }
 
