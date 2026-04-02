@@ -1,0 +1,17 @@
+{
+  "name": "Miami Summer 2026",
+  "short_name": "Miami 2026",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#100912",
+  "theme_color": "#100912",
+  "description": "Cinematic mobile-first Miami relationship archive for Jordan and Anna.",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
