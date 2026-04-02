@@ -1,0 +1,408 @@
+{
+  "images": {
+    "assets/images/beach/anna-cliffs-a-w1200.jpg": {
+      "width": 1200,
+      "height": 900,
+      "bytes": 31058
+    },
+    "assets/images/beach/anna-cliffs-a-w1200.webp": {
+      "width": 1200,
+      "height": 900,
+      "bytes": 17628
+    },
+    "assets/images/beach/anna-cliffs-a-w1600.jpg": {
+      "width": 1600,
+      "height": 1200,
+      "bytes": 52051
+    },
+    "assets/images/beach/anna-cliffs-a-w1600.webp": {
+      "width": 1600,
+      "height": 1200,
+      "bytes": 29738
+    },
+    "assets/images/beach/anna-cliffs-a-w480.jpg": {
+      "width": 480,
+      "height": 360,
+      "bytes": 8295
+    },
+    "assets/images/beach/anna-cliffs-a-w480.webp": {
+      "width": 480,
+      "height": 360,
+      "bytes": 4692
+    },
+    "assets/images/beach/anna-cliffs-a-w768.jpg": {
+      "width": 768,
+      "height": 576,
+      "bytes": 15031
+    },
+    "assets/images/beach/anna-cliffs-a-w768.webp": {
+      "width": 768,
+      "height": 576,
+      "bytes": 8630
+    },
+    "assets/images/beach/anna-cliffs-b-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 148310
+    },
+    "assets/images/beach/anna-cliffs-b-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 93034
+    },
+    "assets/images/beach/anna-cliffs-b-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 219346
+    },
+    "assets/images/beach/anna-cliffs-b-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 136528
+    },
+    "assets/images/beach/anna-cliffs-b-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 41186
+    },
+    "assets/images/beach/anna-cliffs-b-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 28722
+    },
+    "assets/images/beach/anna-cliffs-b-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 80985
+    },
+    "assets/images/beach/anna-cliffs-b-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 53834
+    },
+    "assets/images/hero/suede-cinematic-w480.jpg": {
+      "width": 480,
+      "height": 480,
+      "bytes": 17437
+    },
+    "assets/images/hero/suede-cinematic-w480.webp": {
+      "width": 480,
+      "height": 480,
+      "bytes": 10696
+    },
+    "assets/images/hero/suede-cinematic-w768.jpg": {
+      "width": 768,
+      "height": 768,
+      "bytes": 37823
+    },
+    "assets/images/hero/suede-cinematic-w768.webp": {
+      "width": 768,
+      "height": 768,
+      "bytes": 22440
+    },
+    "assets/images/lounge/suede-cigar-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 113342
+    },
+    "assets/images/lounge/suede-cigar-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 67546
+    },
+    "assets/images/lounge/suede-cigar-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 167130
+    },
+    "assets/images/lounge/suede-cigar-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 96718
+    },
+    "assets/images/lounge/suede-cigar-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 35711
+    },
+    "assets/images/lounge/suede-cigar-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 22692
+    },
+    "assets/images/lounge/suede-cigar-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 64663
+    },
+    "assets/images/lounge/suede-cigar-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 39448
+    },
+    "assets/images/moments/anna-kicks-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 189909
+    },
+    "assets/images/moments/anna-kicks-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 130638
+    },
+    "assets/images/moments/anna-kicks-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 296124
+    },
+    "assets/images/moments/anna-kicks-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 202252
+    },
+    "assets/images/moments/anna-kicks-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 47322
+    },
+    "assets/images/moments/anna-kicks-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 32960
+    },
+    "assets/images/moments/anna-kicks-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 95120
+    },
+    "assets/images/moments/anna-kicks-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 66296
+    },
+    "assets/images/moments/suede-freshcut-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 349841
+    },
+    "assets/images/moments/suede-freshcut-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 283222
+    },
+    "assets/images/moments/suede-freshcut-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 588808
+    },
+    "assets/images/moments/suede-freshcut-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 468858
+    },
+    "assets/images/moments/suede-freshcut-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 58285
+    },
+    "assets/images/moments/suede-freshcut-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 46334
+    },
+    "assets/images/moments/suede-freshcut-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 148060
+    },
+    "assets/images/moments/suede-freshcut-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 119382
+    },
+    "assets/images/night/ajlt-hearts-w480.jpg": {
+      "width": 480,
+      "height": 360,
+      "bytes": 31460
+    },
+    "assets/images/night/ajlt-hearts-w480.webp": {
+      "width": 480,
+      "height": 360,
+      "bytes": 23042
+    },
+    "assets/images/night/ajlt-hearts-w768.jpg": {
+      "width": 768,
+      "height": 576,
+      "bytes": 67238
+    },
+    "assets/images/night/ajlt-hearts-w768.webp": {
+      "width": 768,
+      "height": 576,
+      "bytes": 49002
+    },
+    "assets/images/night/ajlt-run-w480.jpg": {
+      "width": 480,
+      "height": 488,
+      "bytes": 32079
+    },
+    "assets/images/night/ajlt-run-w480.webp": {
+      "width": 480,
+      "height": 488,
+      "bytes": 22020
+    },
+    "assets/images/night/anna-heels-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 275532
+    },
+    "assets/images/night/anna-heels-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 211374
+    },
+    "assets/images/night/anna-heels-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 470766
+    },
+    "assets/images/night/anna-heels-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 360056
+    },
+    "assets/images/night/anna-heels-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 45393
+    },
+    "assets/images/night/anna-heels-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 33848
+    },
+    "assets/images/night/anna-heels-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 115702
+    },
+    "assets/images/night/anna-heels-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 88016
+    },
+    "assets/images/night/anna-night-soft-w1200.jpg": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 292574
+    },
+    "assets/images/night/anna-night-soft-w1200.webp": {
+      "width": 1200,
+      "height": 1600,
+      "bytes": 231326
+    },
+    "assets/images/night/anna-night-soft-w1600.jpg": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 486548
+    },
+    "assets/images/night/anna-night-soft-w1600.webp": {
+      "width": 1600,
+      "height": 2134,
+      "bytes": 388626
+    },
+    "assets/images/night/anna-night-soft-w480.jpg": {
+      "width": 480,
+      "height": 640,
+      "bytes": 55075
+    },
+    "assets/images/night/anna-night-soft-w480.webp": {
+      "width": 480,
+      "height": 640,
+      "bytes": 43940
+    },
+    "assets/images/night/anna-night-soft-w768.jpg": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 132602
+    },
+    "assets/images/night/anna-night-soft-w768.webp": {
+      "width": 768,
+      "height": 1024,
+      "bytes": 106984
+    }
+  },
+  "videos": {
+    "assets/video/moments/ajlt-reaction-loop.mp4": {
+      "bytes": 116521
+    },
+    "assets/video/moments/ajlt-reaction-loop.webm": {
+      "bytes": 92408
+    },
+    "assets/video/moments/ajlt-reaction-poster.jpg": {
+      "bytes": 13973
+    },
+    "assets/video/moments/moments-clip-01-poster.jpg": {
+      "bytes": 22415
+    },
+    "assets/video/moments/moments-clip-01.mp4": {
+      "bytes": 509811
+    },
+    "assets/video/moments/moments-clip-01.webm": {
+      "bytes": 347486
+    },
+    "assets/video/moments/moments-clip-02-poster.jpg": {
+      "bytes": 27891
+    },
+    "assets/video/moments/moments-clip-02.mp4": {
+      "bytes": 775787
+    },
+    "assets/video/moments/moments-clip-02.webm": {
+      "bytes": 562579
+    },
+    "assets/video/moments/moments-clip-03-poster.jpg": {
+      "bytes": 18295
+    },
+    "assets/video/moments/moments-clip-03.mp4": {
+      "bytes": 311081
+    },
+    "assets/video/moments/moments-clip-03.webm": {
+      "bytes": 207855
+    },
+    "assets/video/moments/moments-clip-04-poster.jpg": {
+      "bytes": 15574
+    },
+    "assets/video/moments/moments-clip-04.mp4": {
+      "bytes": 138109
+    },
+    "assets/video/moments/moments-clip-04.webm": {
+      "bytes": 96526
+    },
+    "assets/video/night/night-clip-01-poster.jpg": {
+      "bytes": 31063
+    },
+    "assets/video/night/night-clip-01.mp4": {
+      "bytes": 1963222
+    },
+    "assets/video/night/night-clip-01.webm": {
+      "bytes": 1220584
+    },
+    "assets/video/night/night-clip-02-poster.jpg": {
+      "bytes": 22341
+    },
+    "assets/video/night/night-clip-02.mp4": {
+      "bytes": 191815
+    },
+    "assets/video/night/night-clip-02.webm": {
+      "bytes": 104359
+    },
+    "assets/video/night/night-clip-03-poster.jpg": {
+      "bytes": 27391
+    },
+    "assets/video/night/night-clip-03.mp4": {
+      "bytes": 266208
+    },
+    "assets/video/night/night-clip-03.webm": {
+      "bytes": 221786
+    }
+  }
+}
