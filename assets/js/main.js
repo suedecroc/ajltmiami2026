@@ -25,6 +25,10 @@ const notesField = document.querySelector("[data-notes]");
 const saveNotesButton = document.querySelector("[data-notes-save]");
 const notesStatus = document.querySelector("[data-notes-status]");
 const lazyVideos = [...document.querySelectorAll("video[data-video-lazy]")];
+const spotifyPlayer = document.querySelector("[data-spotify-player]");
+const spotifyLoadButton = document.querySelector("[data-spotify-load]");
+const spotifyMount = document.querySelector("[data-spotify-mount]");
+const spotifyStatus = document.querySelector("[data-spotify-status]");
 
 const notesKey = "miami2026.notes";
 const uiKey = "miami2026.ui";
@@ -189,6 +193,44 @@ function setupVideoLazyLoad() {
   lazyVideos.forEach((video) => observer.observe(video));
 }
 
+function setupSpotifyPlayer() {
+  if (!spotifyPlayer || !spotifyLoadButton || !spotifyMount) {
+    return;
+  }
+
+  const embedSrc = spotifyPlayer.dataset.spotifySrc;
+  if (!embedSrc) {
+    spotifyLoadButton.disabled = true;
+    if (spotifyStatus) {
+      spotifyStatus.textContent = "Spotify source missing.";
+    }
+    return;
+  }
+
+  const loadEmbed = () => {
+    if (spotifyMount.querySelector("iframe")) {
+      return;
+    }
+
+    const frame = document.createElement("iframe");
+    frame.className = "audio-player__spotify";
+    frame.title = "Spotify Embed: Hannah Montana - Migos";
+    frame.src = embedSrc;
+    frame.loading = "lazy";
+    frame.setAttribute("allow", "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture");
+    spotifyMount.append(frame);
+    spotifyPlayer.classList.add("is-loaded");
+
+    spotifyLoadButton.textContent = "Spotify loaded";
+    spotifyLoadButton.disabled = true;
+    if (spotifyStatus) {
+      spotifyStatus.textContent = "Loaded. Hit play in Spotify.";
+    }
+  };
+
+  spotifyLoadButton.addEventListener("click", loadEmbed, { once: true });
+}
+
 modeButtons.forEach((button) => {
   button.addEventListener("click", () => setMode(button.dataset.mode));
 });
@@ -216,6 +258,7 @@ hydrateUiMode();
 hydrateNotes();
 setupSceneObserver();
 setupVideoLazyLoad();
+setupSpotifyPlayer();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
